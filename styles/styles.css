@@ -194,7 +194,7 @@ ul li a{
 /* play games section related styles */
 .play-games-container{
     display: flex;
-    margin: 0px 240px 440px ;
+    margin: 0px 240px 150px ;
     justify-content: space-around;
     align-items: center;
 }
@@ -233,5 +233,40 @@ ul li a{
     margin-top: -300px;
     margin-left: -150px;
 }
+
+/* games collection related styles */
+.games-collection-name{
+    width: 1900px;
+}
+.games-collection{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0px 300px 120px;
+    gap: 25px;
+    /* background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); */
+}
+.games-types{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.games-logo{
+    border-radius: 50px;
+    background: #FFF;
+}
+.games-types-name{
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.games-types button{
+    border: none;
+   background: none;
+}
+
 
 
