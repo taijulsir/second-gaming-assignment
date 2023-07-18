@@ -63,3 +63,92 @@ ul li a{
         color: #0B0223;
         padding-left: 16px;
 }
+
+/* banner related styles*/
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 200px 0px;
+    margin: 19px auto 0;
+    background: #FFF;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-info{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-title{
+    font-size: 5.93rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+.banner-images{
+    width: 50%;
+}
+.play-video{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-top: 24px;
+}
+.fa-circle-play{
+    color: #F948B2;
+    padding-right: 5px;
+}
+.download{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500px;
+    margin-top: 17px;
+}
+.fa-download{
+    color: #F948B2;
+    padding-right: 5px;
+}
+.users{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 17px;
+    margin-bottom: 40px;
+}
+.fa-user-group{
+    padding-left: 5px;
+}
+.sign-in{
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: none;
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-right: 24px;
+    text-transform: uppercase;
+}
+.go-rogue{
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
