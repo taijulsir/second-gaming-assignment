@@ -40,7 +40,10 @@ ul li{
     list-style: none;
     margin-left: 32px;
 }
-ul li button{
+ul li a{
+    text-decoration: none;
+}
+ .follow-us{
     border: none;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
