@@ -35,8 +35,22 @@
     }
     .banner-img{
         width: 300px;
-
     }
+    .games-type{
+        font-size: 2rem;
+    }
+    .funny{
+        font-size: 2rem;
+    }
+    .games-type-description{
+        font-size: 0.80rem;
+    }
+    .games-item{
+        margin: 48px 120px 120px;
+        display: flex;
+        flex-direction: column;
+    }
+
     
 }
 @media screen and (min-width:576px) and (max-width:960px) {
