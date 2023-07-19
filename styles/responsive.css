@@ -51,10 +51,39 @@
     }
     .games-item-description{
         font-size: 0.80rem;
-        text-align: center; 
+        /* text-align: center;  */
     }
+    .play-games-container{
+        flex-direction: column;
+        justify-content: start;
+        width: 20%;
+    }
+    .play-games-title{
+        font-size: 2rem;
+        text-align: start;
+    }
+    .play-games-description{
+        text-align: start;
+        font-size: 1rem;
+    }
+    .play-games-images-container{
+         width: 100%;
+    }
+       
 
-
+    .main-image{
+        position: relative;
+        width:280px;
+        height: auto;
+        flex-shrink: 0;
+    }
+    .relative-image{
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        margin-top: -100px;
+        margin-left: -50px;
+    }
     
 }
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -69,13 +98,15 @@
     }
     .games-item{
         margin: 48px 30px 120px;
-       display: grid;
-       grid-template-columns: repeat(2,1fr);
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
     .games-item-description{
         font-size: 0.75rem;
     }
-
-    
+    .play-games-container{
+        margin: 0px 30px 120px 20px ;
+    }
+   
     
 }
