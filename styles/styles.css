@@ -232,7 +232,7 @@ ul li a{
 /* play games section related styles */
 .play-games-container{
     display: flex;
-    margin: 0px 240px 150px ;
+    margin: 120px 240px 150px ;
     justify-content: space-around;
     align-items: center;
 }
