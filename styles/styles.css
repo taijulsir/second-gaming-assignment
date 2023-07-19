@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* nav bar related styles  */
 nav{
     background: #FFF;
@@ -328,4 +329,7 @@ ul li a{
 }
 #youtube{
     font-size: 40px;
+}
+.hide{
+    display: none;
 }
