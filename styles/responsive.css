@@ -18,14 +18,17 @@
     /* banner section */
     .banner-container{
         flex-direction: column-reverse;
-        margin: 0px  ;
-        padding: 0px;
+        margin: 0px 30px ;
+        padding: 0px 50px;
+    }
+    .banner-info{
+        font-size: 2rem;
     }
     .banner-content{
         width: 100%;
     }
     .banner-title{
-        font-size: 4rem;
+        font-size: 3.50rem;
     }
     .banner-images{
         width: 100%;
@@ -38,55 +41,7 @@
     .banner-img{
         width: 300px;
     }
-    .games-type{
-        font-size: 2rem;
-    }
-    .games-type-description{
-        font-size: 1rem;
-    }
-    .funny{
-        font-size: 2rem;
-    }
-    .games-item{
-        margin: 48px 100px 120px;
-        display: flex;
-        flex-direction: column;
-    }
-    .games-item-description{
-        font-size: 0.80rem;
-        /* text-align: center;  */
-    }
-    .play-games-container{
-        flex-direction: column;
-        justify-content: start;
-        width: 20%;
-    }
-    .play-games-title{
-        font-size: 2rem;
-        text-align: start;
-    }
-    .play-games-description{
-        text-align: start;
-        font-size: 1rem;
-    }
-    .play-games-images-container{
-         width: 100%;
-    }
-       
 
-    .main-image{
-        position: relative;
-        width:280px;
-        height: auto;
-        flex-shrink: 0;
-    }
-    .relative-image{
-        width: 200px;
-        height: 150px;
-        position: absolute;
-        margin-top: -100px;
-        margin-left: -50px;
-    }
     /* footer section */
     .footer-container{
         width: 100%;
@@ -116,6 +71,7 @@
     
 }
 @media screen and (min-width:576px) and (max-width:960px) {
+   /* nav bar section */
     nav{
         padding: 40px 30px;
     }
@@ -125,17 +81,11 @@
     ul li{
         margin-left: 10px;
     }
-    .games-item{
-        margin: 48px 30px 120px;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    .games-item-description{
-        font-size: 0.75rem;
-    }
-    .play-games-container{
-        margin: 0px 30px 120px 20px ;
-    }
+    /* banner-section */
+    .banner-container{
+        flex-direction: column;
+        padding: 19px 50px 0px;
+    }  
     /* footer section */
     .footer-menus{
         padding: 60px 200px 65px;
